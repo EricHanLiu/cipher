@@ -9,6 +9,7 @@ Download the .py file and __run it__.
 ####Encrypting
 1. Enter any phrase you want\* and a random key that you'll remember.
 2. Save the encrypted text that is produced.
+
 ####Decrypting
 1. Enter the encrypted text that you want to decypher.
 2. Enter your key.
