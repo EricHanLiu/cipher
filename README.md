@@ -10,6 +10,7 @@ Download the .py file and __run it__.
 1. Enter any phrase you want and a random key that you'll remember.
 
 \* **Note:** the phrase can only contain characters and the key must be an integer.
+
 2. Save the encrypted text that is produced.
 
 ####Decrypting
