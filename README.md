@@ -8,10 +8,11 @@ Unfortunately the actually encryption algorithm that I wrote is absolutely terri
 Download the .py file and __run it__.
 ####Encrypting
 1. Enter any phrase you want and a random key that you'll remember.
-\* Note: the phrase can only contain characters and the key must be an integer.
+
+\* **Note:** the phrase can only contain characters and the key must be an integer.
 2. Save the encrypted text that is produced.
 
 ####Decrypting
 1. Enter the encrypted text that you want to decypher.
 2. Enter your key.
-3. Tada!
+3. **Tada!**
