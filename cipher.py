@@ -2,16 +2,16 @@ import math
 import time
 from random import randint
 
-print "1: Encrypt"
-print "2: Decrypt"
-choice = raw_input()
+print("1: Encrypt")
+print("2: Decrypt")
+choice = input()
 
 if (choice == "1"):
-	phrase = raw_input("Enter Phrase:\n").lower().replace(" ", "{")
+	phrase = input("Enter Phrase:\n").lower().replace(" ", "{")
 	phrase.replace(" ", "`")
 	output = []
 	
-	key = input("Enter Key:") #number of random digits to add
+	key = int(input("Enter Key:"), 10) #number of random digits to add
 
 	#converts letters to numbers starting at 1
 	for character in phrase:
@@ -26,18 +26,18 @@ if (choice == "1"):
 		for j in range(0, key):	
 			output[i] += str(randint(0,9))
 	
-	print
-	print "Encrypting..."
-	print
+	print()
+	print("Encrypting...")
+	print()
 	time.sleep(1)
-	print "".join(output)
+	print("".join(output))
 
 elif (choice == "2"):
-	phrase = raw_input("Enter Encrypted Phrase:\n")
+	phrase = input("Enter Encrypted Phrase:\n")
 	output = []
 	final = []
 
-	key = input("Enter Key: ")
+	key = int(input("Enter Key: "), 10)
 
 	for i in range(0, len(phrase)):
 		output.append(phrase[i])
@@ -51,12 +51,12 @@ elif (choice == "2"):
 		output[i] = chr(output[i]).replace("{", " ")
 		final.append(output[i])
 
-	print
-	print "Decrypting..."
-	print
+	print()
+	print("Decrypting...")
+	print()
 	time.sleep(1)
-	print "".join(final)
+	print("".join(final))
 
 else:
-	print "Invalid Choice"
+	print("Invalid Choice")
 	system.exit(0)
