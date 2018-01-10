@@ -1,4 +1,5 @@
 import math
+import sys
 import time
 from random import randint
 
@@ -6,7 +7,7 @@ print("1: Encrypt")
 print("2: Decrypt")
 choice = input()
 
-if (choice == "1"):
+if (choice == '1'):
 	phrase = input("Enter Phrase:\n").lower().replace(" ", "{")
 	phrase.replace(" ", "`")
 	output = []
@@ -32,7 +33,7 @@ if (choice == "1"):
 	time.sleep(1)
 	print("".join(output))
 
-elif (choice == "2"):
+elif (choice == '2'):
 	phrase = input("Enter Encrypted Phrase:\n")
 	output = []
 	final = []
@@ -59,4 +60,4 @@ elif (choice == "2"):
 
 else:
 	print("Invalid Choice")
-	system.exit(0)
+	sys.exit(0)
