@@ -1,3 +1,5 @@
+"""this cipher generates random numbers to sandwich the actual message using the key provided"""
+
 import math
 import sys
 import time
