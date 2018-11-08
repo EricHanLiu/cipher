@@ -1,8 +1,6 @@
 # Cipher
 
-Note: you can see the cipher I wrote for a COMP assignment (with more traditional encryption methods) under my mcgill repository (navigate to comp250/a1).
-
-The encryption algorithm relies on a random number generator and an integer key to encrypt, and this same key to decrypt.
+The encryption algorithm relies on a random number generator and an integer key to encrypt, and this same key to decrypt. Definitely not the most sophisticated cipher, just something I wrote for fun.
 ## How to use?
 Download the .py file and __run it__ (updated code to python3 compatibility).
 
